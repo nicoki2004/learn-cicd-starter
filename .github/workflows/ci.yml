@@ -37,7 +37,7 @@ jobs:
       - name: Formatting
         run: test -z $(go fmt ./...)
 
-      - Linting Step
+      - name: Linting Step
         uses: dominikh/staticcheck-action@v1
         with:
           version: "latest"
