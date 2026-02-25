@@ -16,11 +16,6 @@ import (
 	"github.com/bootdotdev/learn-cicd-starter/internal/database"
 )
 
-func unused() {
-	// this function does nothing
-	// and is called nowhere
-}
-
 type apiConfig struct {
 	DB *database.Queries
 }
