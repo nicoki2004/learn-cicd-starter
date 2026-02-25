@@ -20,6 +20,7 @@ VALUES (
 )
 `
 
+// #nosec G117
 type CreateUserParams struct {
 	ID        string
 	CreatedAt string

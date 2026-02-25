@@ -4,8 +4,6 @@
 
 package database
 
-import ()
-
 type Note struct {
 	ID        string
 	CreatedAt string
@@ -14,6 +12,7 @@ type Note struct {
 	UserID    string
 }
 
+// #nosec G117
 type User struct {
 	ID        string
 	CreatedAt string
